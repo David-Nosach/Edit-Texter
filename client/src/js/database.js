@@ -1,5 +1,6 @@
 import { openDB } from "idb";
 
+// Initialize IndexedDB database
 const initdb = async () =>
   openDB("jate", 1, {
     upgrade(db) {
@@ -12,6 +13,7 @@ const initdb = async () =>
     },
   });
 
+// Function to put data into IndexedDB
 export const putDb = async (content) => {
   console.log("PUT to the database");
   const jateDb = await openDB("jate", 1);
@@ -22,6 +24,7 @@ export const putDb = async (content) => {
   console.log("🚀 - data saved to the database", result);
 };
 
+// Function to get data from IndexedDB
 export const getDb = async () => {
   console.log("GET from the database");
   const jateDb = await openDB("jate", 1);
@@ -35,4 +38,5 @@ export const getDb = async () => {
   return result?.content;
 };
 
+// Initialize the database on script load
 initdb();

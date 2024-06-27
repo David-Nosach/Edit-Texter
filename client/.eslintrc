@@ -1,9 +1,9 @@
 {
   "env": {
-    "browser": true
+    "browser": true // Set environment to browser for ESLint
   },
   "rules": {
-    // Override our default settings just for this directory
+    // Custom ESLint rules for the client directory
     "eqeqeq": "warn",
     "strict": "off",
     "import/no-extraneous-dependencies": "off",

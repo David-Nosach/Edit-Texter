@@ -1,3 +1,4 @@
+// Header content for the text editor
 const header = `
 /*
        _____  ____________

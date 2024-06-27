@@ -14,6 +14,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
+// Start listening on the specified port
 app.listen(PORT, () => {
   console.log(`Now listening on port: ${PORT}`);
 });
