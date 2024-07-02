@@ -4,6 +4,8 @@
 
 Edit-Texter is a simple text editor Progressive Web Application (PWA) built with JavaScript, utilizing IndexedDB for local data storage and Workbox for service worker management.
 
+<img width="1440" alt="edit-texter" src="https://github.com/David-Nosach/Edit-Texter/assets/91391933/23e7ea83-6811-475f-b3ad-e22f4aa5195d">
+
 https://edit-texter-1.onrender.com/
 
 ## Features
